@@ -302,10 +302,41 @@ nav a {
 }
 
 
+/* Stay Connected */
+#connected {
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#connected h2 {
+    color: #73000a;
+    font-size: 40px;
+    margin: 0;
+}
+
+#connected p {
+    margin: 20px 0 30px;
+}
+
+#connected-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#connected-links a {
+    background-color: #73000a;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 25px;
+}
+
 /* Footer Top */
 #footer-top {
     background-color: #eeeeee;
-    padding: 40px 6%;
+    padding: 40px 15%;
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -317,14 +348,16 @@ nav a {
 
 .footer-school h2 {
     color: #73000a;
+    font-family: Georgia, serif;
 }
 
 .school-button {
     display: inline-block;
     background-color: black;
     color: white;
-    padding: 15px 20px;
+    padding: 12px 18px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .socials {
@@ -332,8 +365,8 @@ nav a {
 }
 
 .socials a {
-    margin-right: 15px;
     color: #73000a;
+    margin-right: 15px;
 }
 
 .footer-links {
@@ -344,9 +377,9 @@ nav a {
 
 .footer-links a {
     color: #73000a;
+    text-decoration: none;
     font-weight: bold;
     margin-bottom: 25px;
-    text-decoration: none;
 }
 
 .footer-address {
@@ -359,15 +392,14 @@ nav a {
 }
 
 .footer-address p {
-    margin: 10px 0;
+    margin: 8px 0;
 }
-
 
 /* Main Garnet Footer */
 #main-footer {
     background-color: #73000a;
     color: white;
-    padding: 40px 6%;
+    padding: 35px 15%;
 }
 
 #main-footer h2 {
@@ -376,7 +408,7 @@ nav a {
 
 #footer-columns {
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 
 .footer-column {
@@ -386,25 +418,28 @@ nav a {
 }
 
 .footer-column h3 {
+    font-size: 16px;
     border-bottom: 1px solid white;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 .footer-column a {
     color: white;
     text-decoration: none;
-    margin: 7px 0;
+    font-size: 14px;
+    margin: 6px 0;
 }
-
 
 /* Bottom Footer */
 #footer-bottom {
     background-color: black;
     color: white;
-    padding: 15px 6%;
+    padding: 12px 15%;
     display: flex;
-    gap: 20px;
-    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 #footer-bottom p {
@@ -414,4 +449,147 @@ nav a {
 #footer-bottom a {
     color: white;
     text-decoration: none;
+    border-left: 1px solid white;
+    padding-left: 15px;
+}
+
+/* Small Screens */
+@media (max-width: 800px) {
+
+    /* Header */
+    #top-links {
+        display: none;
+    }
+
+    #main-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #main-header h2 {
+        font-size: 24px;
+    }
+
+    #usc-logo h1 {
+        font-size: 28px;
+    }
+
+
+    /* Navigation */
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav li {
+        text-align: center;
+        padding: 12px;
+    }
+
+    /* Hero */
+    #hero img {
+        height: 350px;
+    }
+
+    /* Intro */
+    #intro {
+        padding: 30px;
+    }
+
+    /* Education */
+    #education img {
+        height: 350px;
+    }
+
+    #education-box {
+        position: static;
+        width: auto;
+    }
+
+    /* Quote */
+    #quote {
+        flex-direction: column;
+        padding: 40px;
+        text-align: center;
+    }
+
+    #quote img {
+        width: 220px;
+        height: 220px;
+    }
+
+    #quote-text p {
+        font-size: 20px;
+    }
+
+
+    /* Research */
+    #research img {
+        height: 350px;
+    }
+
+    #research-box {
+        position: static;
+        width: auto;
+    }
+
+    /* Cards */
+    #links {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .link-card {
+        width: 100%;
+    }
+
+    /* Centers */
+    #centers img {
+        height: 350px;
+    }
+
+    #centers-box {
+        position: static;
+        width: auto;
+    }
+
+    /* Stay Connected */
+    #connected-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Top Footer */
+    #footer-top {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .footer-links {
+        margin-top: 20px;
+    }
+
+    .footer-address {
+        margin-top: 20px;
+    }
+
+    /* Main Footer */
+    #main-footer {
+        padding: 30px;
+    }
+
+    #footer-columns {
+        flex-direction: column;
+    }
+
+    .footer-column h3 {
+        margin-top: 20px;
+    }
+
+    /* Bottom Footer */
+    #footer-bottom {
+        flex-direction: column;
+        padding: 15px 30px;
+        gap: 8px;
+    }
 }
