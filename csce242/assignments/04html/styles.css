@@ -1,0 +1,417 @@
+/* Whole Page */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Top Links */
+#top-links {
+    background-color: black;
+    padding: 10px 5%;
+}
+
+#top-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+/* Main Header */
+#main-header {
+    background-color: black;
+    color: white;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#usc-logo {
+    display: flex;
+    align-items: center;
+}
+
+#usc-logo img {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+#usc-logo p {
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+#usc-logo h1 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 35px;
+}
+
+#main-header h2 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+}
+
+/* Navigation */
+nav {
+    background-color: #73000a;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 7%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    padding: 18px 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Intro */
+#intro {
+    padding: 40px 30%;
+    background-color: white;
+}
+
+#intro p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+/* Education */
+#education {
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+#education img {
+    width: 100%;
+    height: 640px;
+    object-fit: cover;
+    display: block;
+}
+
+#education-box {
+    background-color: #73000a;
+    color: white;
+    width: 34%;
+    padding: 35px;
+    margin-left: 59%;
+    margin-top: -250px;
+    position: relative;
+}
+
+#education-box h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+#education-box p {
+    line-height: 1.6;
+}
+
+#education-box a {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+/* Quote */
+#quote {
+    background-color: white;
+    padding: 70px 20%;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+#quote img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#quote-text {
+    flex: 1;
+}
+
+#quote-text p {
+    color: #73000a;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+#quote-text h4 {
+    color: black;
+}
+
+/* Research */
+#research {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+#research img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+#research-box {
+    position: absolute;
+    left: 5%;
+    bottom: -35px;
+    width: 35%;
+    padding: 35px;
+    background-color: #73000a;
+    color: white;
+}
+
+#research-box h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+#research-box p {
+    line-height: 1.6;
+}
+
+#research-box a {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+/* Cards */
+#links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 18%;
+}
+
+.link-card {
+    width: 30%;
+}
+
+.link-card img {
+    width: 100%;
+    display: block;
+}
+
+.link-card h3 {
+    color: #73000a;
+    font-size: 22px;
+    margin: 15px;
+}
+
+.link-card p {
+    margin: 15px;
+    line-height: 1.5;
+}
+
+#centers {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+#centers img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+#centers-box {
+    position: absolute;
+    left: 5%;
+    bottom: -35px;
+    width: 25%;
+    padding: 35px;
+    background-color: #73000a;
+    color: white;
+}
+
+#centers-box h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+#centers-box p {
+    line-height: 1.6;
+}
+
+#centers-box a {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+/* Stay Connected */
+#connected {
+    text-align: center;
+    padding: 60px;
+    background-color: white;
+}
+
+#connected h2 {
+    color: #73000a;
+    font-size: 38px;
+}
+
+#connected-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+#connected-links a {
+    color: #73000a;
+    font-weight: bold;
+}
+
+
+/* Footer Top */
+#footer-top {
+    background-color: #eeeeee;
+    padding: 40px 6%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-school {
+    flex: 2;
+}
+
+.footer-school h2 {
+    color: #73000a;
+}
+
+.school-button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.socials {
+    margin-top: 20px;
+}
+
+.socials a {
+    margin-right: 15px;
+    color: #73000a;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.footer-links a {
+    color: #73000a;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.footer-address {
+    flex: 1;
+}
+
+.footer-address a {
+    color: #73000a;
+    font-weight: bold;
+}
+
+.footer-address p {
+    margin: 10px 0;
+}
+
+
+/* Main Garnet Footer */
+#main-footer {
+    background-color: #73000a;
+    color: white;
+    padding: 40px 6%;
+}
+
+#main-footer h2 {
+    font-size: 32px;
+}
+
+#footer-columns {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h3 {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    margin: 7px 0;
+}
+
+
+/* Bottom Footer */
+#footer-bottom {
+    background-color: black;
+    color: white;
+    padding: 15px 6%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#footer-bottom p {
+    margin: 0;
+}
+
+#footer-bottom a {
+    color: white;
+    text-decoration: none;
+}
