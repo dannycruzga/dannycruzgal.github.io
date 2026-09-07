@@ -12,16 +12,82 @@ body {
     background-color: bisque;
 }
 
+#logo {
+    position: absolute;
+    left: 2%;
+}
+
+/* Hero */
+#hero {
+    position: relative;
+}
+
+#hero-description {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    background:rgba(255,255,255,0.8);
+    padding:20px;
+    font-size:1.5em;
+}
+
+.hero-arrow {
+    position: absolute;
+    top: 22%;
+    font-size: 12em;
+    color: white;
+    text-decoration: none;
+}
+
+#hero-arrow-right {
+    right: 2%;
+}
+
+#hero-arrow-left {
+    left: 2%;
+}
+
 #sidebar, #info {
     padding: 5px;
 }
 
 #sidebar {
-    background-color: turquoise
+    background-color: aliceblue;
 }
 
 #info {
-    background-color: aliceblue;
+    background-color: turquoise;
+}
+
+/* Footer links */
+#footer-links-title {
+    width: fit-content;
+    margin: auto;
+    align-items: baseline;
+}
+
+#footer-links-title, h1, #footer-links-title, h2 {
+    margin: 0;
+    padding-left: 10px;
+}
+
+#footer-links {
+    background-color: maroon;
+    color: white;
+}
+
+#footer-links a {
+    color: white;
+}
+
+/* Footer copy */
+#footer-copy {
+    background-color: black;
+    color: white;
+}
+
+#footer-copy a {
+    color: white;
 }
 
 /* Navigation */
@@ -47,8 +113,16 @@ body {
     padding-top: 0;
 }
 
+/*columns for all devices */
+.columns-mobile {
+    display: flex;
+}
 
 @media (min-width: 1000px) {
+    #footer-links-title {
+        margin: 0;
+    }
+
     .columns {
         display: flex;
     }
