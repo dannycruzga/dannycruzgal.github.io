@@ -24,7 +24,7 @@ header {
 }
 
 main {
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 main h2 {
@@ -41,7 +41,7 @@ main h2 {
 
 .card {
     background-color: lightblue;
-    width: 280px;
+    width: 250px;
     padding: 15px;
     border: 2px solid steelblue;
     box-sizing: border-box;
