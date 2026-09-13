@@ -34,15 +34,17 @@ main h2 {
 
 #assignments, #projects {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
 
 .card {
     background-color: lightblue;
-    width: 300px;
+    width: 280px;
     padding: 15px;
     border: 2px solid steelblue;
+    box-sizing: border-box;
 }
 
 .card h3 {
@@ -50,7 +52,7 @@ main h2 {
 }
 
 .card img {
-    width: 300px;
+    width: 200px;
     height: 150px;
     object-fit: cover;
 }
@@ -64,6 +66,7 @@ main h2 {
 }
 
 @media (max-width: 700px) {
+
     #assingments, #projects {
         flex-direction: column;
         align-items: center;
