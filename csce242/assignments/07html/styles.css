@@ -1,0 +1,64 @@
+/* Structure */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    text-align: center;
+    color: teal;
+}
+
+h2 {
+    color: coral;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 28%;
+    height: 220px;
+    background: lightyellow;
+    border: 1px solid gray;
+    position: relative;
+}
+
+#bubble {
+    background: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 40px;
+    padding: 15px;
+    margin: auto;
+}
+
+.hide {
+    display: none;
+}
+
+#stickerArea {
+    position: relative;
+}
+
+#sun {
+    width: 120px;
+}
+
+.sticker {
+    position: absolute;
+    font-size: 25px;
+}
+
+/* Small Screen */
+@media (max-width: 700px) {
+
+    .container {
+        display: block;
+    }
+
+    .box {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+}
