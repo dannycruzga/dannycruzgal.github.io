@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    color: #0b1726;
+}
+
+header {
+    background: #071827;
+    color: white;
+    padding: 0 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.main-logo span {
+    color: #add8e6;
+}
+
+.main-logo h2, .main-logo p {
+    margin: 0;
+}
+
+.main-logo p {
+    font-size: 10px;
+}
+
+header span,
+h1 span {
+    color: #159cff;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+#hero {
+    height: 425px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    background-image: url("homeimages/main.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h1 {
+    font-size: 45px;
+    margin: 0%;
+}
+
+#hero p {
+    font-size: 18px;
+}
+
+/* Buttons */
+button {
+    background: #159cff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 25px;
+}
+
+
+/* Brands */
+#brands {
+    background: #eeeeee;
+    text-align: center;
+    padding: 40px;
+}
+
+#brands h2 {
+    font-size: 35px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 230px;
+    background: #eeeeee;
+}
+
+.card img {
+    width: 230px;
+    height: 185px;
+    object-fit: cover;
+}
+
+.card p {
+    height: 40px;
+}
+
+/* More */
+#more {
+    background-image: url("homeimages/info.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.discover {
+    color: #159cff;
+    letter-spacing: 3px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info {
+    width: 220px;
+    border: 1px solid white;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Featured Mustang */
+#featured {
+    color: white;
+    padding: 60px;
+    background-image: url("homeimages/mustang.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.featvehicle {
+    color: #159cff;
+    letter-spacing: 3px;
+}
+
+#featured p {
+    width: 400px;
+}
+
+/* About */
+#about {
+    padding: 60px;
+    background-image: url("homeimages/about.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutknow {
+    color: #159cff;
+    letter-spacing: 3px;
+}
+
+.aboutknow span {
+    color: #add8e6;
+}
+
+#about p {
+    width: 450px;
+}
+
+/* Footer */
+footer {
+    background: #061a28;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.footer-title h2 {
+    margin: 0;
+}
+
+.footer-title span {
+    color: #159cff;
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-socials {
+    border-left: 1px solid #add8e6;
+    border-right: 1px solid #add8e6;
+    padding: 0 20px;
+}
+
+.footer-socials img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-socials p {
+    margin: 5px;
+}
+
+.footer-message {
+    font-size: 13px;
+}
+
+/* Small Screen */
+@media (max-width: 700px) {
+
+    header, .cards, .info-boxes {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+    }
+
+    .card, .info {
+        width: 100%;
+    }
+
+    #featured p, #about p {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-social {
+        border-left: none;
+        border-right: none;
+        padding: 0;
+    }
+
+    .footer-social img {
+        width: 30px;
+        height: 30px;
+    }
+}
