@@ -26,8 +26,7 @@ header {
     font-size: 10px;
 }
 
-header span,
-h1 span {
+header span, h1 span {
     color: #159cff;
 }
 
@@ -138,6 +137,7 @@ button {
     background-image: url("homeimages/mustang.png");
     background-size: cover;
     background-position: center;
+    height: 450px;
 }
 
 .featvehicle {

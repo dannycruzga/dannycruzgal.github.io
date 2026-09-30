@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    color: #ffffff;
+}
+
+/* Header */
+header {
+    background: #071827;
+    color: white;
+    padding: 0 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.main-logo h2, .main-logo p {
+    margin: 0;
+}
+
+.main-logo span {
+    color: #add8e6;
+}
+
+.main-logo p {
+    font-size: 10px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* All Sections */
+main section {
+    height: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+}
+
+main section h3 {
+    color: #ffff00;
+    margin: 0;
+}
+
+main section h1 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+main section p {
+    width: 45%;
+}
+
+/* Main */
+#main-logo {
+    height: 640px;
+    background-image: url("chevroletimages/chevroletlogo.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+
+#main-logo h3 {
+    color: yellow;
+    margin: 0;
+}
+
+#main-logo h1 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+#main-logo p {
+    width: 600px;
+    margin: auto;
+    line-height: 1.4;
+}
+
+span {
+    color: #ffff00;
+}
+
+/* History */
+#history {
+    background-image: url("chevroletimages/chevrolethistory.png");
+    padding-left: 55%;
+    height: 500px;
+}
+
+#history p {
+    width: 700px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+#history h1 {
+    margin: 10px 0;
+}
+
+#history h3 {
+    margin: 0;
+}
+
+/* First */
+#first {
+    background-image: url("chevroletimages/chevroletfirst.png");
+    color: #0b1726;
+    height: 500px;
+}
+
+/* Newest */
+#newest {
+    background-image: url("chevroletimages/chevroletnewest.png");
+    color: #0b1726;
+    padding-left: 55%;
+    height: 500px;
+}
+
+#newest p {
+    width: 700px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+/* Fastest */
+#fastest {
+    background-image: url("chevroletimages/chevroletfastest.png");
+    height: 500px;
+}
+
+#fastest p {
+    width: 700px;
+    font-size: 16px;
+}
+
+/* Least Expensive */
+#leastexp {
+    background-image: url("chevroletimages/chevroletleastexp.png");
+    padding-left: 55%;
+    height: 500px;
+}
+
+#leastexp p {
+    width: 700px;
+    font-size: 16px;
+}
+
+/* Most Expensive */
+#mostexp {
+    background-image: url("chevroletimages/chevroletmostexp.png");
+    height: 500px;
+}
+
+#mostexp p {
+    width: 700px;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background: #061a28;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.footer-title h2, .footer-title p {
+    margin: 0;
+}
+
+.footer-title span {
+    color: #add8e6;
+}
+
+.footer-title p {
+    font-size: 10px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-socials {
+    border-left: 1px solid #add8e6;
+    border-right: 1px solid #add8e6;
+    padding: 0 20px;
+}
+
+.footer-socials img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-socials p {
+    margin: 5px;
+    font-size: 12px;
+}
+
+.footer-message {
+    font-size: 13px;
+}
+
+/* Small Screen */
+@media (max-width: 700px) {
+
+    header, footer {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav, .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main section {
+        height: auto;
+        min-height: 350px;
+        padding: 30px;
+    }
+
+    #history, #newest, #leastexp {
+        padding: 30px;
+    }
+
+    main section p {
+        width: 100%;
+    }
+}

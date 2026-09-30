@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    color: #0b1726;
+}
+
+/* Header */
+header {
+    background: #071827;
+    color: white;
+    padding: 0 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.main-logo h2, .main-logo p {
+    margin: 0;
+}
+
+.main-logo span {
+    color: #add8e6;
+}
+
+.main-logo p {
+    font-size: 10px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* About Hero */
+.about-hero {
+    height: 525px;
+    background-image: url("aboutimages/aboutknow.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.about-hero-text {
+    width: 400px;
+    padding: 60px 0 0 40px;
+}
+
+.about-hero-text h4 {
+    color: #159cff;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.about-hero-text h1 {
+    font-size: 35px;
+    margin: 15px 0;
+}
+
+.about-hero-text h1 span {
+    color: #159cff;
+}
+
+.about-hero-text p {
+    line-height: 1.5;
+}
+
+/* Our Story */
+.story {
+    display: flex;
+    background: white;
+}
+
+.story {
+    display: flex;
+    background: white;
+}
+
+.story-image {
+    width: 50%;
+    position: relative;
+}
+
+.story-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.then,
+.now {
+    position: absolute;
+    bottom: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.then {
+    left: 20px;
+}
+
+.now {
+    right: 20px;
+}
+
+.then span, .now span {
+    color: #ffffff;
+}
+
+.story-text {
+    width: 50%;
+    padding: 50px;
+}
+
+.story-text {
+    width: 50%;
+    padding: 50px;
+}
+
+.story-text h4 {
+    color: #777777;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.story-text h2 {
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.story-text p {
+    line-height: 1.5;
+}
+
+/* Our Purpose */
+.purpose {
+    height: 500px;
+    background-image: url("aboutimages/ourpurpose.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.purpose-text {
+    width: 420px;
+    padding: 60px 0 0 40px;
+}
+
+.purpose-text h4 {
+    color: #159cff;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.purpose-text h2 {
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.purpose-text h2 span {
+    color: #159cff;
+}
+
+.purpose-text p {
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    background: #061a28;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.footer-title h2, .footer-title p {
+    margin: 0;
+}
+
+.footer-title span {
+    color: #add8e6;
+}
+
+.footer-title p {
+    font-size: 10px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-socials {
+    border-left: 1px solid #add8e6;
+    border-right: 1px solid #add8e6;
+    padding: 0 20px;
+}
+
+.footer-socials img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-socials p {
+    margin: 5px;
+    font-size: 12px;
+}
+
+.footer-message {
+    font-size: 13px;
+}
+
+/* Small Screen */
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .about-hero {
+        height: auto;
+        min-height: 400px;
+    }
+
+    .about-hero-text {
+        width: auto;
+        padding: 40px 25px;
+    }
+
+    .story {
+        flex-direction: column;
+    }
+
+    .story img {
+        width: 100%;
+    }
+
+    .story-text {
+        width: auto;
+        padding: 30px;
+    }
+
+    .purpose {
+        height: auto;
+        min-height: 350px;
+    }
+
+    .purpose-text {
+        width: auto;
+        padding: 40px 25px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-socials {
+        border-left: none;
+        border-right: none;
+    }
+}
