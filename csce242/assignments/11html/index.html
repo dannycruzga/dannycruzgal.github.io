@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vacations</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- W3Schools modal stylesheet -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+        <header>
+            <h1>Vacations</h1>
+            <h2>Vacation Experiences</h2>
+        </header>
+
+        <main id="vacation-gallery">
+        </main>
+
+        <div id="vacation-modal" class="w3-modal">
+            <div class="w3-modal-content modal-content">
+                <span id="close-modal" class="w3-button w3-display-topright">
+                    &times;
+                </span>
+                <div class="modal-layout">
+                    <iframe
+                        id="modal-map"
+                        src=""
+                        loading="lazy">
+                    </iframe>
+                    <section class="modal-info">
+                        <h2 id="modal-title"></h2>
+
+                        <p>
+                            <strong>Type:</strong>
+                            <span id="modal-type"></span>
+                        </p>
+
+                        <p>
+                            <strong>Description:</strong>
+                            <span id="modal-description"></span>
+                        </p>
+
+                        <p>
+                            <strong>Things To Do:</strong>
+                            <span id="modal-things"></span>
+                        </p>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>@DannyCruzGalindo.com</p>
+        </footer>
+        <script src="scripts/intro.js"></script>
+    </body>
+</html>
