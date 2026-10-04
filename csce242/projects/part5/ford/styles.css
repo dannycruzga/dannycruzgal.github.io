@@ -24,7 +24,7 @@ header {
 }
 
 .main-logo p {
-    font-size: 10px;
+    font-size: 16px;
 }
 
 nav {
@@ -192,7 +192,7 @@ footer {
 }
 
 .footer-title p {
-    font-size: 10px;
+    font-size: 16px;
 }
 
 .footer-links {
@@ -208,12 +208,17 @@ footer {
 .footer-socials {
     border-left: 1px solid #add8e6;
     border-right: 1px solid #add8e6;
-    padding: 0 20px;
+    padding: 0 100px;
 }
 
-.footer-socials img {
-    width: 100px;
-    height: auto;
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 35px;
+    height: 35px;
 }
 
 .footer-socials p {
@@ -222,7 +227,7 @@ footer {
 }
 
 .footer-message {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 /* Small Screen */
