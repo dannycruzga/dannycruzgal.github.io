@@ -102,6 +102,46 @@ button {
     height: 40px;
 }
 
+/* Slideshow */
+#slideshow {
+    background: #071827;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+#slideshow h4 {
+    color: #159cff;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+#slideshow h2 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#slideshow img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#slideshow button {
+    background: #159cff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 25px;
+    margin: 15px 8px 0;
+}
+
+#slideshow button:hover {
+    background: #0b7fd1;
+}
+
 /* More */
 #more {
     background-image: url("homeimages/info.png");
