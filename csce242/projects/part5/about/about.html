@@ -78,6 +78,25 @@
                     </p>
                 </div>
             </section>
+            <section id="video">
+                <h2>Explore Automotive History</h2>
+                <p>Learn more about the history and evolution of cars.</p>
+                <iframe src="https://www.youtube.com/embed/UWSgWCEb3sQ"
+                    title="Automotive History"
+                    allowfullscreen>
+                </iframe>
+            </section>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Have a question about KnowYourCars? Send us a message!</p>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <p id="form-message" role="status" aria-live="polite"></p>
+            </section>
         </main>
         <footer>
             <div class="footer-title">
@@ -114,6 +133,6 @@
                 </p>
             </div>
         </footer>
-
+        <script src="contact.js"></script>
     </body>
 </html>
