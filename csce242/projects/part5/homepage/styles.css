@@ -142,6 +142,47 @@ button {
     background: #0b7fd1;
 }
 
+/* JSON Cars */
+#cars {
+    background: #eeeeee;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#cars h2 {
+    font-size: 35px;
+}
+
+#car-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.car-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 0;
+}
+
+.car-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.car-card h3 {
+    font-size: 18px;
+}
+
+.car-card p {
+    font-size: 14px;
+}
+
 /* More */
 #more {
     background-image: url("homeimages/info.png");
@@ -285,6 +326,15 @@ footer {
 
     #featured p, #about p {
         width: 100%;
+    }
+
+    #car-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .car-card {
+        width: 80%;
     }
 
     footer {
